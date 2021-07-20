@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Taker Application</title>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.scss">
+</head>
+<body>
+    <div class="modal-container">
+        <div class="modal">
+            <button class="modal__btn">&times;</button>
+            <h2 class="modal__title">Title here</h2>
+            <p class="modal__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolore facilis nemo suscipit et dignissimos accusantium tempore aspernatur possimus totam, iure soluta ut eius, libero architecto cum odio delectus nesciunt itaque?</p>
+        </div>
+    </div>
+    <div class="form-container">
+        <h1>Note Taker</h1>
+        <h3>Add a New Note:</h3>
+        
+        <form action="">
+            <label for="title">Title
+                 <input type="text" id="title" placeholder="Enter a note title.">
+             </label>
+             <label for="title">Note
+                 <textarea type="text" id="note" cols="30" rows="10"name="note" placeholder="Enter a note.">
+             </label>
+
+             <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="note-container">
+        
+    </div>
+   
+</body>
+</html>
